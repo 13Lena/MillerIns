@@ -143,6 +143,74 @@ h3, .sidebar, h2 {
 .partner:last-child {
     margin-right: 0;
 }
+ .product {
+    width: 300px;
+    overflow: auto;
+    position: relative;
+    margin: 20px 0 25px;
+ }
+
+ .product:nth-child(even) {
+     margin-right: 40px;
+ }
+
+ .product img {
+     width: 100%;
+     border: 0 none;
+     opacity: .8;
+ }
+
+ .product h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #008093;
+    border-bottom: 0;
+  } 
+
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #008093;
+    border: 0 none;
+  }
 
 footer {
     position: fixed;
@@ -158,3 +226,77 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+
+
+@media only screen and (max-width:980px) {
+    nav {
+      margin-right: 5px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .main-section,
+    .sidebar {
+      max-width: 100%;
+    }
+  
+    main {
+      overflow: auto;
+    }
+  
+    .product {
+      width: 47%;
+      margin-bottom: 10px;
+    }
+  
+    .product:nth-child(even) {
+      margin-right: 0;
+    }
+  
+    .product:nth-child(odd) {
+      float: right;
+    }
+  
+    .lion {
+      width: 50%;
+    }
+  
+    .sidebar {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px){
+    #masthead {
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    header .container {
+      padding: 0;
+    }
+  
+    main.container {
+      padding-top: 0;
+    }
+  
+    #logo,
+    .product,
+    .productImg {
+      width: 100%;
+    }
+  
+    nav {
+      width: 100%;
+      margin: 15px 0;
+      text-align: center;
+    }
+  
+    nav a {
+      width: 30%;
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+  
