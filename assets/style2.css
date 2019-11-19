@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    line-height: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+ html {
+     background: url(../assets/images/Geneva-valley.jpg) no-repeat center center fixed;
+     background-size: cover;
+ }
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #008093;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid black;
+}
+
+h2, h3 {
+  font-size: 30px;
+  color: black;
+}
+
+#masthead {
+    background: #ffffff;
+    margin: 0 0 50px;
+    z-index: 99;
+    color: #ffffff;
+    overflow: auto;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    background: #008093;
+    /*float: left;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav {
+    float: right;
+    margin-top: 18px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+#main-container {
+    padding-top: 130px;
+}
+
+.main-section {
+    background: #ffffff;
+    padding: 30PX;
+    margin: 0 0 40px 0;
+    max-width: 100%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.lion {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+#book {
+    background: #008093;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+.sidebar {
+    background: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    float: right;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+h3, .sidebar, h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.partner {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.partner:last-child {
+    margin-right: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: #777777;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #008093;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}

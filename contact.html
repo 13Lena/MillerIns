@@ -5,7 +5,8 @@
     <title>Miller Insurance Team</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style2.css">
 
   </head>
 
@@ -15,36 +16,47 @@
       <div class="container">
         <a href="index.html" id="logo">Miller Insurance Team</a>
         <nav>
-          <ul>
-            <li>
+          
               <a href="index.html">Home</a>
-            </li>
-            <li>
+            
               <a href="products.html">Types of Insurance</a>
-            </li>
-            <li>
+          
               <a href="about.html">About Us</a>
-            </li>
-            <li>
+          
               <a href="contact.html">contact</a>
-            </li>
-          </ul>
+          
         </nav>
       </div>
       </header>
 
-      <main class="container">
+      <main id="main-container" class="container">
         <section class="main-section">
           <h1>make an appiontment today</h1>
-          <form>
-              
+          <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Jane Doe" required="required">
+                </li>
+                <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="JaneDoe@email.com" required="required">
+                    </li>
+                    <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+            </ul>
+            <input type="submit" name="submit">
           </form>
         </section>
       </main>
     </div>
 
-    <footer class="container">
-      copyright 2019
+    <footer>
+            <div class="container">
+                    &copy;Copyright Miller Insurance Team 2019
+                  </div>  
     </footer>
 
   </body>
