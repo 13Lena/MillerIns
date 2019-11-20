@@ -147,7 +147,7 @@ h3, .sidebar, h2 {
     width: 300px;
     overflow: auto;
     position: relative;
-    margin: 20px 0 25px;
+    margin: 25px 0 25px 150px;
  }
 
  .product:nth-child(even) {
@@ -173,6 +173,16 @@ h3, .sidebar, h2 {
     background: #008093;
     border-bottom: 0;
   } 
+
+  .description {
+    float: right;
+    margin-right: 200px;
+    text-align: right;
+  }
+
+  .description p {
+  
+  }
 
   #contact-form ul {
     margin-bottom: 20px;
